@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" />
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Scenario0_Welcome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Scenario1_GetFeed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Scenario2_Tweet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\AlphaGain.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Medea.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\XmlSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FeedLsvModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PersistModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TimeLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenario0_Welcome.xaml.cs">
+      <DependentUpon>Scenario0_Welcome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Scenario1_GetFeed.xaml.cs">
+      <DependentUpon>Scenario1_GetFeed.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Scenario2_Tweet.xaml.cs">
+      <DependentUpon>Scenario2_Tweet.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\brightIcon_150x150.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\brightIcon_30x30.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunappp_logo_320x320.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_106x106.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_1152x1920.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_120x120.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_150x150.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_24x24.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_310x150.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_310x310.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_320x320.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_360x360.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_414x180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_480x800.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_672x1120.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_150x150.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_30x30.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_320x320.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_50x50.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_620x300.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_logo_b_70x70.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_splash_300.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_splash_420.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kunapp_splash_540.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\LargeLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MiniLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalltile-Windows-sdk.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\splash-Windows-sdk.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\squaretile-sdk.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\storelogo-sdk.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\tile-sdk.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+</Project>
