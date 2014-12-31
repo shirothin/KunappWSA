@@ -14,9 +14,9 @@ http://windows.microsoft.com/ja-jp/windows/search#q=KunappWSA)
 * Home
 	* Tweetをナビゲートするキャラクタを選択します。(開発中:Ver1.00現在)
 * Feed
-	* Tweetをナビゲートするキャラクタを選択します。
+	* kunkokuさん関連のRSSフィードリーダです。
 * Tweet
-	* Tweetをナビゲートするキャラクタを選択します。
+	* kunkokuさん経由の購入ツィートです。
 * 画像サンプル（2014/12/28現在のものです）
 		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS0.png)
 		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS1.png)
