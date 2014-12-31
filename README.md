@@ -3,7 +3,7 @@
 KunappWSAは、kunkokuショップメンバーズの公式アプリ
 kunappのWindowsRt(ストア)版です。
 
-Android版 : [https://play.google.com/store/apps/details?id=com.kunkoku.kunClock&hl=ja](https://play.google.com/store/apps/details?id=com.kunkoku.kunClock&hl=ja)
+Android版 : [https://play.google.com/store/apps/details?id=com.kunkoku.kunapp&hl=ja](https://play.google.com/store/apps/details?id=com.kunkoku.kunapp&hl=ja)
 
 # インストール
 Windows 向けアプリ : [http://windows.microsoft.com/ja-jp/windows/search#q=KunappWSA](
@@ -19,8 +19,10 @@ http://windows.microsoft.com/ja-jp/windows/search#q=KunappWSA)
 	* kunkokuさん経由の購入ツィートです。
 * 画像サンプル（2014/12/28現在のものです）
 		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS0.png)
-		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS1.png)
+
 		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS2.png)
+
+		* ![キャプチャ画像](https://raw.github.com/shirothin/KunappWSA/master/description/KunappWSA_SS1.png)
 
 # ビルド
 
